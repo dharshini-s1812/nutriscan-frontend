@@ -1,4 +1,4 @@
-const SERVER_URL = "https://nutriscan-backend-50047814493.development.catalystappsail.in"
+const SERVER_URL = window.NUTRISCAN_API_BASE_URL
 let token = localStorage.getItem("token")
  const userId = localStorage.getItem("userId");
 
