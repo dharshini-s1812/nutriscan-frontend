@@ -1,0 +1,108 @@
+{
+  "rewrites": [
+    {
+      "source": "/auth",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/auth"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/auth/:path*"
+    },
+    {
+      "source": "/api/food",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/api/food"
+    },
+    {
+      "source": "/api/food/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/api/food/:path*"
+    },
+    {
+      "source": "/dashboard",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/dashboard"
+    },
+    {
+      "source": "/dashboard/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/dashboard/:path*"
+    },
+    {
+      "source": "/profile",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/profile"
+    },
+    {
+      "source": "/profile/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/profile/:path*"
+    },
+    {
+      "source": "/analytics",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/analytics"
+    },
+    {
+      "source": "/analytics/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/analytics/:path*"
+    },
+    {
+      "source": "/bmi",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/bmi"
+    },
+    {
+      "source": "/bmi/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/bmi/:path*"
+    },
+    {
+      "source": "/meals",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/meals"
+    },
+    {
+      "source": "/meals/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/meals/:path*"
+    },
+    {
+      "source": "/todayMeal",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/todayMeal"
+    },
+    {
+      "source": "/todayMeal/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/todayMeal/:path*"
+    },
+    {
+      "source": "/addMeal",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/addMeal"
+    },
+    {
+      "source": "/addMeal/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/addMeal/:path*"
+    },
+    {
+      "source": "/deleteMeal",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/deleteMeal"
+    },
+    {
+      "source": "/deleteMeal/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/deleteMeal/:path*"
+    },
+    {
+      "source": "/preferences",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/preferences"
+    },
+    {
+      "source": "/preferences/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/preferences/:path*"
+    },
+    {
+      "source": "/updatePreferences",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/updatePreferences"
+    },
+    {
+      "source": "/updatePreferences/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/updatePreferences/:path*"
+    },
+    {
+      "source": "/search",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/search"
+    },
+    {
+      "source": "/search/:path*",
+      "destination": "https://nutriscan-backend-50047814493.development.catalystappsail.in/search/:path*"
+    }
+  ]
+}
